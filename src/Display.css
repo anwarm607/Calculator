@@ -1,0 +1,45 @@
+#Display {
+  background      : #f8f8f8;
+  padding         : 3rem 1rem;
+  border-radius   : 5px 5px 0 0;
+  border-bottom   : 1px solid #f8f8f8;
+  color           : hsl(230, 96%, 95%);
+  text-align      : center;
+  cursor          : default;
+  display         : flex;
+  flex-direction  : column;
+  justify-content : center;
+}
+
+#Display h1 {
+    font-size     : 3rem;
+    margin        : 0 0 1rem 0;
+    font-weight   : 400;
+    color         : #4E4E4E;
+}
+
+#Display h1.hasManyDecimals {
+      font-size: 2.5rem;
+}
+
+
+#Display small {
+    font-size     : 1rem;
+    font-style    : italic;
+    color         : #ABABAB;
+}
+
+@media ( max-width: 499px ) {
+  #Display {
+    height        : 35vh;
+    margin        : 0;
+    padding       : 0;
+    border-radius : 0;
+  }
+  
+  #Display h1 {
+    font-size     : 3rem;
+    margin        : 0;
+  }
+
+						}
